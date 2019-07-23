@@ -51,16 +51,16 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
 
     @Override
     public void onAnimationStart(Animation animation) {
-
+         Toast.makeText(MainActivity.this,"animation started",Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onAnimationEnd(Animation animation) {
-
+         Toast.makeText(MainActivity.this,"animation ended",Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onAnimationRepeat(Animation animation) {
-
+         Toast.makeText(MainActivity.this,"animation repeated",Toast.LENGTH_SHORT).show();
     }
 }
