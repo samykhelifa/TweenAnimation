@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
 
     public void rotateAnimation(View view) {
         mRotateAnim = AnimationUtils.loadAnimation(this, R.anim.rotate_anim);
-        mScaleAnim.setAnimationListener(this);
+        mRotateAnim.setAnimationListener(this);
         mImageView.startAnimation(mRotateAnim);
     }
 
